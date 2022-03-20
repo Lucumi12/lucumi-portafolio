@@ -45,12 +45,12 @@ header nav a {
 	text-decoration: none;
 	margin-right: 50px;
 	font-family: 'Teko';
-    font-size: 30px;
+    font-size: 20px;
 }
 
 header nav a:hover,
 header nav a.activo {
-	font-size: 31px;
+	font-size: 21px;
 	opacity: 80%;
 	
 }
@@ -63,6 +63,54 @@ header nav a.activo {
 	text-shadow: #681f1d 0px 3px;
 	object-position: center; 
 }
+
+/* comienzo pixeladventure */
+
+.title-pixeladventure {
+	font-family: 'Teko';
+	font-weight: normal;
+	color: #ffcc24;
+	font-size: 30px;
+	text-shadow: #ff9c24 0px 2px;
+	object-position: center;
+}
+
+.descripcion-collecion {
+  color: #295c2f;
+  font-size: 18px;
+  font-family: 'Teko';
+
+}
+
+.precio {
+	font-family: 'Teko';
+	font-weight: normal;
+	color: #404040;
+	font-size: 20px;
+	object-position: center; 
+}
+
+.button-pixeladventure {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #295c2f;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Teko';
+  border-radius: 10px;
+  text-shadow: #404040 0px 2px;
+}
+
+.jugar-ahora {
+  text-decoration: none;
+}
+
+/* fin pixeladventure */
 
 .subname {
 	font-family: 'Teko';
@@ -83,6 +131,7 @@ header nav a.activo {
   text-align: center;
   border-radius: 20px;
 }
+
 
 .title {
   color: #333333;
@@ -110,7 +159,8 @@ button:hover {
   font-size: 19px;
 }
 
-a {
+
+.redes {
   text-decoration: none;
   font-size: 35px;
   color: #FFF;
@@ -121,15 +171,25 @@ a {
 
 .credit {
 	font-family: 'Teko';
-	font-weight: normal;
-	color: #FFF;
+	color: #AAA;
 	font-size: 15px;
-	text-shadow: #AAA 0px 1px;
-	text-align: left;
+	text-align: center;
 	margin-top: 75px;
-	margin-left: 5%;
+
 }
 
+.download-pixeladventure {
+	font-family: 'Teko';
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+a {
+	text-decoration: none;
+}
 
 
 /* ---- ----- ----- Media Queries ----- ----- ----- */
