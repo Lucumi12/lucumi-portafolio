@@ -32,7 +32,7 @@ header .logotipo {
 	font-family: 'Teko';
 	font-weight: normal;
 	color: #FFF;
-	font-size: 60px;
+	font-size: 50px;
 	text-shadow: #AAA 0px 4px;
 	object-position: center;
 	margin-right: 30px;
@@ -110,6 +110,10 @@ header nav a.activo {
   text-decoration: none;
 }
 
+.separador {
+	margin-top: 5px;
+}
+
 /* fin pixeladventure */
 
 .subname {
@@ -125,11 +129,11 @@ header nav a.activo {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
   max-width: 300px;
   margin: auto;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 
