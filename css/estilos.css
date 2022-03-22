@@ -45,8 +45,9 @@ header nav a {
 	text-shadow: #AAA 0px 2px;
 	text-decoration: none;
 	margin-right: 45px;
+	margin-left: : 45px;
 	font-family: 'Teko';
-    font-size: 25px;
+    font-size: 20px;
 }
 
 header nav a:hover,
