@@ -42,9 +42,9 @@ header .logotipo {
 
 header nav a {
 	color: #FFF;
-	text-shadow: #AAA 0px 3px;
+	text-shadow: #AAA 0px 2px;
 	text-decoration: none;
-	margin-right: 40px;
+	margin-right: 35px;
 	font-family: 'Teko';
     font-size: 20px;
 }
