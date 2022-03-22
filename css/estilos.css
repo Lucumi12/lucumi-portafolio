@@ -1,225 +1,201 @@
-:root {
-	--rojo: #F177FF;
-	--fondo: #FFF;
-}
 
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: content-box;
+	box-sizing: border-box;
 }
 
 body {
-	background: var(--fondo);
-	font-family: 'Bebas Neue';
+	background-image: url(https://i.pinimg.com/originals/58/6e/51/586e51559dc40f48cd8ce65af9c1522f.gif);
+	background-position: center center;
+	background-size: cover;
+	min-height: 37.62em;
 }
 
 .contenedor {
 	width: 90%;
 	margin: auto;
+
 }
 
 header {
-	padding: 20px 0;
-	font-size: 20px;
+	padding: 5px 0;
+	padding-top: 0px
 }
 
 header .contenedor {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
-
-
 }
 
 header .logotipo {
-	font-family: 'Bebas Neue';
-	font-weight: bold;
-	color: var(--rojo);
-	font-size: 80px;
-	text-shadow: #AC56B7 2px 2px;
+	font-family: 'Teko';
+	font-weight: normal;
+	color: #FFF;
+	font-size: 50px;
+	text-shadow: #AAA 0px 4px;
+	object-position: center;
+	margin-right: 0px;
 }
 
+
 header nav a {
-	color: #AAA;
+	color: #FFF;
+	text-shadow: #AAA 0px 3px;
 	text-decoration: none;
-	margin-right: 20px;
-	font-size: 600;
-	border: lightpink;
+	margin-right: 70px;
+	font-family: 'Teko';
+    font-size: 20px;
 }
 
 header nav a:hover,
 header nav a.activo {
-	color: #FFD026;
+	font-size: 21px;
+	opacity: 80%;
+	
 }
 
-/* ---- ----- ----- Pelicula Principal ----- ----- ----- */
-.parte-principal {
-	font-size: 15px;
-	min-height: 34.00em;
-	color: #F177FF;
-	background: linear-gradient(rgba(0, 0, 0, 0) 2%, rgba(0,0,0,0) 100%), url(../img/background.png);
-	background-position: center center;
-	background-size: cover;
-	margin-bottom: 2.12em;
-	display: flex;
-	align-items: end;
-	font-family: 'Bebas Neue';
-}
-
-.parte-principal .contenedor {
-	margin: 0 auto;
-	margin-bottom: 12.25em;
-}
-
-.parte-principal .titulo {
-	font-weight: 1000;
-	font-size: 5.50em;
-	margin-bottom: 0.1em;
-    text-shadow: #AC56B7 5px 4px;
-
-}
-
-.parte-principal .descripcion {
+.myname {
+	font-family: 'Teko';
 	font-weight: normal;
-	font-size: 1em;
-	line-height: 1.75em;
-	max-width: 50%;
-	margin-bottom: 1.25em;
-	font-size: 20px;
-	color: #FFD026;
-	text-shadow: #FF9523 1px 2px;
-	font-family: 'Bebas Neue';
-}
-
-.parte-principal .boton {
-	background: rgba(0,0,0, 0);
-	border: solid;
-	border-radius: 0.50em;
-	padding: 0.93em 1.00em;
-	color: #F177FF;
-	margin-right: 0.50em;
-	cursor: pointer;
-	transition: .2s ease all;
-	font-size: 1.00em;
-	font-family: 'Bebas Neue';
-	border-spacing: 200;
-}
-
-.parte-principal .boton:hover {
-	background: #AC56B7;
-	color: #FF8800;
-}
-
-.parte-principal .boton i {
-	margin-right: 0.40em;
-}
-
-/* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
-.contenedor-titulo-controles {
-	display: flex;
-	justify-content: space-between;
-	align-items: end;
-}
-
-.contenedor-titulo-controles h3 {
-	color: #FFD026;
-	font-size: 35px;
-	text-shadow: #FF9523 2px 2px;
-
-}
-
-.contenedor-titulo-controles .indicadores button {
-	background: #FF9900;
-	height: 3px;
-	width: 10px;
-	cursor: pointer;
-	border: none;
-	margin-right: 2px;
-	position: absolute;
-	margin-bottom: 2px;
-
-}
-
-.contenedor-titulo-controles .indicadores button:hover,
-.contenedor-titulo-controles .indicadores button.activo {
-	background: #FF8800;
-}
-
-
-/* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
-.parte-2 {
-	margin-bottom: 70px;
-}
-
-.parte-2 .contenedor-principal {
-	display: flex;
-	align-items: center;
-	position: relative;
-}
-
-.parte-2 .contenedor-principal .flecha-izquierda,
-.parte-2 .contenedor-principal .flecha-derecha {
-	position: absolute;
-	border: none;
-	background: rgba(0,0,0, 0.3);
+	color: #8c2a27;
 	font-size: 30px;
-	height: 50%;
-	top: calc(50% - 25%);
-	line-height: 40px;
-	width: 50px;
-	color: #FFD026;
-	text-shadow: #FF5900 3px 2px;
-	cursor: pointer;
-	z-index: 500;
-	transition: .2s ease all;
+	text-shadow: #681f1d 0px 3px;
+	object-position: center; 
 }
 
-.parte-2 .contenedor-principal .flecha-izquierda:hover,
-.parte-2 .contenedor-principal .flecha-derecha:hover {
-	background: rgba(0,0,0, .9);
+/* comienzo pixeladventure */
+
+.title-pixeladventure {
+	font-family: 'Teko';
+	font-weight: normal;
+	color: #ffcc24;
+	font-size: 30px;
+	text-shadow: #ff9c24 0px 2px;
+	object-position: center;
 }
 
-.parte-2 .contenedor-principal .flecha-izquierda {
-	left: 0;
+.descripcion-collecion {
+  color: #295c2f;
+  font-size: 18px;
+  font-family: 'Teko';
+
 }
 
-.parte-2 .contenedor-principal .flecha-derecha {
-	right: 0;
+.precio {
+	font-family: 'Teko';
+	font-weight: normal;
+	color: #404040;
+	font-size: 20px;
+	object-position: center; 
 }
 
-/* ---- ----- ----- Carousel ----- ----- ----- */
-.parte-2 .contenedor-carousel {
-	width: 100%;
-	padding: 20px 0;
-	overflow: hidden;
-	scroll-behavior: smooth;
-	font-family: 'Fredoka One';
-	text-orientation: left;
+.button-pixeladventure {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #295c2f;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Teko';
+  border-radius: 10px;
+  text-shadow: #404040 0px 2px;
+}
+
+.jugar-ahora {
+  text-decoration: none;
+}
+
+.separador {
+	margin-top: 5px;
+}
+
+/* fin pixeladventure */
+
+.subname {
+	font-family: 'Teko';
+	font-weight: normal;
+	color: #404040;
+	font-size: 20px;
+	object-position: center; 
+}
+
+.button-juegos {
+	color
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+.title {
+  color: #333333;
+  font-size: 18px;
+  font-family: 'Teko';
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #8c2a27;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Teko';
+  border-radius: 10px;
+  text-shadow: #404040 0px 2px;
+}
+
+button:hover {
+  font-size: 19px;
+}
+
+
+.redes {
+  text-decoration: none;
+  font-size: 35px;
+  color: #FFF;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.credit {
+	font-family: 'Teko';
+	color: #AAA;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 75px;
+
+}
+
+.download-pixeladventure {
+	font-family: 'Teko';
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+a {
 	text-decoration: none;
 }
 
-.parte-2 .contenedor-carousel .carousel {
-	display: flex;
-	flex-wrap: nowrap;
-}
-
-.parte-2 .contenedor-carousel .carousel .pelicula {
-	min-width: 20%;
-	transition: .3s ease all;
-	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
-}
-
-.parte-2 .contenedor-carousel .carousel .pelicula.hover {
-	transform: scale(1.2);
-	transform-origin: center;
-}
-
-.parte-2 .contenedor-carousel .carousel .pelicula img {
-	width: 100%;
-	vertical-align: top;
-}
 
 /* ---- ----- ----- Media Queries ----- ----- ----- */
 @media screen and (max-width: 800px) {
@@ -229,195 +205,6 @@ header nav a.activo {
 	}
 
 	header .contenedor {
-		flex-direction: column;
+		flex-direction: columny;
 		text-align: center;
 	}
-
-	.pelicula-principal {
-		font-size: 14px;
-	}
-
-	.pelicula-principal .descripcion {
-		max-width: 100%;
-	}
-
-	.peliculas-recomendadas .contenedor-carousel {
-		overflow: visible;
-		font-family: 'Bebas Nue';
-	}
-
-	.peliculas-recomendadas .contenedor-carousel .carousel {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 20px;
-		font-family: 'Bebas Nue';
-	}
-
-	.peliculas-recomendadas .indicadores,
-	.peliculas-recomendadas .flecha-izquierda,
-	.peliculas-recomendadas .flecha-derecha {
-		display: none;
-	}
-}
-
-.creditos {
-
-    color: #AAA;
-    font-size: 10px;
-    padding-top: 1px;
-    font-family: Fredoka One;
-}
-
-/*------------RECURSOS USADOS----------*/
-
-.recursos-usados {
-	font-size: 50px;
-	text-shadow: #703E78 3px 3px;
-	color: #BA68C8;
-	font-family: 'Bebas Neue';
-}
-
-.css {
-	font-size: 32px;
-	text-shadow: #035281 1px 1px;
-	color: #00a1ff;
-	font-family: 'Bebas Neue';
-}
-
-.html5 {
-	font-size: 32px;
-	text-shadow: #ff7600 1px 1px;
-	color: #fbab34;
-	font-family: 'Bebas Neue';
-}
-
-.googlefonts {
-	font-size: 32px;
-	text-shadow: #17873f 1px 1px;
-	color: #28f772;
-	font-family: 'Bebas Neue';
-}
-
-.fontawesome {
-	font-size: 32px;
-	text-shadow: #fbff00 1px 1px;
-	color: #0a0554;
-	font-family: 'Bebas Neue';
-}
-
-.javascript {
-	font-size: 32px;
-	text-shadow: #383734 1px 1px;
-	color: #ffbc00;
-	font-family: 'Bebas Neue';
-}
-
-
-.logotipo {
-
-	font-size: 60px;
-}
-
-
-.fondo-1 {
-
-	text-shadow: #599000;
-}
-
-.titulo-thetan-arena {
-
-	font-family: Fredoka One;
-	font-size: 50px;
-	margin-bottom: 10px;
-    color: #6E169E;
-    text-shadow: #320A49 1px 1px;
-}
-
-.descripcion-thetan-arena {
-
-	font-family: Fredoka One;
-	font-size: 20px;
-	margin-bottom: 10px;
-    color: #6E169E;
-
-}
-
-.titulos {
-
-   color: #F177FF;
-   text-shadow: #AC56B7 2px 2px;
-   font-size: 30px;
-   font-family: Bebas Neue;
-}
-
-.video-dsp {
-
-   color: #AAA;
-   font-size: 15px;
-   font-family: Fredoka One;
-
-}
-
-.lineas {
-
-   text-shadow: #FF9523 2px 2px;
-   color: #FFD026;
-   font-family: Bebas Neue;
-   font-size: 30px;
-
-}
-
-LINEAS
-
-
-.titulos2 {
-
-   color: #F177FF;
-   text-shadow: #AC56B7 2px 2px;
-   font-size: 30px;
-   font-family: Bebas Neue;
-}
-
-.video-dsp2 {
-
-   color: #AAA;
-   font-size: 15px;
-   font-family: Fredoka One;
-
-}
-
-.lineas2 {
-
-   text-shadow: #FF9523 2px 2px;
-   color: #FFD026;
-   font-family: Bebas Neue;
-   font-size: 30px;
-
-}
-
-.background-videos {
-
-	background: linear-gradient(rgba(0, 0, 0, 0) 2%, rgba(0,0,0,0) 100%), url(../img/background.png);
-}
-
-.parte-principal .boton2 {
-	background: rgba(0,0,0, 0);
-	border: solid;
-	border-radius: 0.80em;
-	padding: 0.93em 1.00em;
-	color: #F177FF;
-	margin-right: 1.00em;
-	cursor: pointer;
-	transition: .2s ease all;
-	font-size: 1.20em;
-	font-family: 'Bebas Neue';
-	border-spacing: 400;
-}
-
-.parte-principal .boton2:hover {
-	background: #AC56B7;
-	color: #FF8800;
-}
-
-.parte-principal .boton2 i {
-	margin-right: 0.80em;
