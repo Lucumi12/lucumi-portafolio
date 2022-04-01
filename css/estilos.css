@@ -84,6 +84,22 @@ header nav a.activo {
 
 }
 
+.title-loginaesthetic {
+	font-family: 'Teko';
+	font-weight: normal;
+	color: #FFF;
+	font-size: 30px;
+	text-shadow: #AAA 0px 2px;
+	object-position: center;
+}
+
+.descripcion-aesthetic {
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Teko';
+
+}
+
 .precio {
 	font-family: 'Teko';
 	font-weight: normal;
@@ -164,7 +180,7 @@ button {
 button:hover {
   font-size: 19px;
 }
-
+-
 
 .redes {
   text-decoration: none;
